@@ -7,7 +7,7 @@ jobs:
       - name: first-step
         run: echo "Hello World!"
   job-two:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: second-step
         run: echo "Hello World2!"
