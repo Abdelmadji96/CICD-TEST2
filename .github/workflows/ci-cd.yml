@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-  sample-job:
+  job-two:
     runs-on: ubuntu-latest
     steps:
       - name: second-step
